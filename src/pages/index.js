@@ -13,7 +13,8 @@ export default function Home() {
         <h1 className="title">
         Learn to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-        <p>Read <Link href="/posts/first-post"><a>this page!</a></Link></p>
+        <p>Read <Link href="/posts/first-post"><a>this page (first post)!</a></Link> 
+          and <Link href="/posts/second-post"><a>another page (second post)!</a></Link></p>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
